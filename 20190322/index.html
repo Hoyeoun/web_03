@@ -1,0 +1,124 @@
+<!-- <!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>style</title>
+	<style>
+		*{color:black;}
+		div{color: blue;}
+		p{background-color:skyblue;}
+		#box01{color:black;}
+		div.box01{color:darkblue;font-weight:bold;}
+		p.box01{color:darkblue;font-weight:bold;}
+		a[href]{background-color:orange;}
+
+	</style>
+</head>
+<body>
+	Lorem ipsum dolor sit amet.
+	<div>lorem ipsum dolor</div>
+	<p>Lorem ipsum dolor sit amet.</p>
+	<div class="box01">Lorem ipsum dolor sit amet.</div>
+	<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, commodi?</div>
+	<div id="box01">Lorem ipsum dolor sit amet.</div>
+	<p class="box01">Lorem ipsum dolor sit amet.</p>
+	<div class="box01">Lorem ipsum dolor sit amet.</div>
+	<div class="box02">Quaerat ipsum voluptate error qui.</div>
+	<a href="http://www.naver.com">네이버</a>
+	<a href="http://www.daum.net">다음</a>
+</html>
+ -->
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>title</title>
+	<style>
+	/* 	#container h1{color:blue;}
+	#container h2{color:blue;}
+	#container ul{color:red}
+	#container li{color:skyblue}
+	
+	#container ul li.menu{color:red}
+	#container>ul>li.menu{color:red}
+	#container.menu{color:red}
+	#container li menu{color:red}    -> 4개 다 같은 의미임 */
+
+	a:hover{background-color:red}
+	a:active{background-color:yellow}
+	a:visited,a:link{color:black; text-decoration:none;}
+
+
+	ul>li:nth-child(2n){background-color:red}
+	ul>li:nth-child(2n+1){background-color:blue}
+
+	div.box{width:200px;height:200px;background-color:skyblue}
+	div.box:after{content:"!!!";}
+	div.box:before{content:"정호연님,"}
+
+
+
+	</style>
+</head>
+<body>
+<!-- 	<div id="container">
+		<h1>Lorem ipsum dolor sit amet.</h1>
+		<h2>Lorem ipsum dolor sit amet.</h2>
+	<ul>
+		<li class="menu">Lorem ipsum.</li>
+		<li class="menu">hahahahaha</li>
+		<li>Lorem ipsum.</li>
+	</ul>
+	</div>
+	<div>
+		<h1>Lorem ipsum dolor sit amet.</h1>
+		<h2>Lorem ipsum dolor sit amet.</h2>
+	<ul>
+		<li>Lorem ipsum.</li>
+		<li>Lorem ipsum.</li>
+		<li>Lorem ipsum.</li>
+	</ul>
+	</div>
+
+	<style>
+		h1~h2{color:red;}
+	</style>
+	<h1>header1</h1>
+	<h2>header2</h2>
+	<h2>header3</h2>
+	<h2>header4</h2>
+	<h2>header5</h2> -->
+
+	<a href="http://www.korea.com">네이버</a>
+
+	<!-- ul>li*6>{menu$}	 -->	
+
+
+	<ul>
+		<li>menu1</li>
+		<li>menu2</li>
+		<li>menu3</li>
+		<li>menu4</li>
+		<li>menu5</li>
+		<li>menu6</li>
+	</ul>
+
+	<div class="box">안녕하세요</div>
+
+	<!-- div.box{안녕하세요} -->
+
+	<span style="color:blue;font-weight: bold;">elit</span>
+	<span style="color:blue;font-weight: bold;">elit</span>
+	<div style="color:blue;font-weight: bold;">elit</div>
+	<div style="color:blue;font-weight: bold;">elit</div>
+
+
+
+
+
+
+
+</body>
+</html>
