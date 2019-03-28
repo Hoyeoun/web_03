@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>display</title>
+	<style>
+		*{margin:0px;}
+		body{background-image:url(../images/bg_grid.gif);} /*->이미지 경로 */
+		.box{
+			display:none; /*block, none, inline 처리 할수있다 */
+			background-color:rgb(250,0,0);
+			padding:10px;
+			border:10px solid #000000;
+			width:300px; height:50px;
+			margin:10px;
+			opacity:0.5;
+		}
+		.box01{
+			width: 100px;height: 100px;
+			background-color: #f00;
+			padding: 10px;
+			border:10px solid #000;
+			box-sizing:border-box; /*content-box -> 이게 기본임*/ 
+		}
+	</style>
+</head>
+<body>
+
+	<div class="box">나나나난나나난</div>
+	<div class="box01"></div>
+	
+</body>
+</html>
