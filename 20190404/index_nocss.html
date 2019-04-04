@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>menu</title>
+	<style>
+		/*.clearfix:after{content:"";clear:both; display:none;}*/
+
+		/*reset*/
+		*{margin:0; padding:0; }
+		li{list-style:none;}
+		a:link,a:visited{color:#000; text-decoration:none;}
+
+
+
+		/*menu layout*/
+
+		header#menu_top{background-color:#cdcdcd;}
+			ul.nav{
+				width:1000px; margin:0 auto;
+				background-color:white;
+				box-sizing:?????????????
+			
+		}
+			ul.nav:after {content:""; clear:both; display:block;}
+			ul.nav >li {
+				float:left;
+				border-right:1px solid gray;
+				border-left:1px solid gray;
+		}
+			ul.nav > li > a{
+				width:198px; display:block;
+				text-align:center;line-height:40px;
+
+		}
+
+		div.container{
+			height:500px;
+			background: url(../images/pc02.jpg);
+			background-repeat:no-repeat;
+			background-size:cover;
+			
+
+		}
+
+		section.content{margin:0 auto;	width:1000px;}
+			section.content > ul:after {
+				content:""; clear:both; display:block;}
+			section.content > ul > li {
+				float:left;
+				width:33.33%;
+				text-align:center;line-height:300px;
+				background-color:skyblue;
+		}
+
+		section.content > ul > li:nth-child(2){background-color:orange;}
+		#footer{
+			height:50px;
+			text-align:center;line-height:50px;
+			background-color:#cdcdcd;
+		}
+
+
+
+
+	</style>
+</head>
+
+<body>
+
+
+
+
+	<header id="menu_top">
+		<ul class="nav">
+			<li><a href="#">menu1</a></li>
+			<li><a href="#">menu2</a></li>
+			<li><a href="#">menu3</a></li>
+			<li><a href="#">menu4</a></li>
+			<li><a href="#">menu5</a></li>
+		</ul>
+		
+	</header>
+
+	<div class="container">
+		
+	</div>
+
+	<section class="content">
+		<ul class="clearfix">
+			<li>content1</li>
+			<li>content2</li>
+			<li>content3</li>
+		</ul>
+	</section>
+	<footer id="footer">
+		footer
+	</footer>
+	
+</body>
+</html>

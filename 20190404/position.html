@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>title</title>
+	<style>
+		*{margin: 0; padding:0}
+		li{list-style: none;}
+		a:link,a:vistied{color:#000;text-decoration:none;}
+		body{background:url(../images/bg_grid.gif);}
+
+		div{width: 300px;height: 300px;}
+		div.box1{
+			background:skyblue;
+			position:absolute;  /*relative 값은 left,top 값만 사용*/
+			top:100px;
+			left:100px;
+			/*z-index:1;   -> 하단에 position 있어도 z-index 있으면 위로옴*/
+		}
+		div.box2{
+			background:orange; 
+			/*z-index:2;*/
+			position:absolute;  /*position 나중되는값이 화면에 보임*/
+			z-index:1;
+			
+		}
+
+		div.box3{
+			background:blue;
+			position:absolute;
+		}
+
+		div.box4{
+			width: 400px;height: 400px;background:#000;
+			position:relative;
+		}
+	</style>
+</head>
+<body>
+	<!-- .box$*3>{box$} -->
+	<div class="box1">box1</div>
+	<div class="box2">box2</div>
+	<div class="box3">box3</div>
+	<div class="box4">box4</div>
+
+</body>
+</html>
